@@ -2,14 +2,15 @@
 
 pgrep -x sxhkd > /dev/null || sxhkd &
 
-picom --experimental-backends &
+picom &
 
 #urxvt -name x &
 
 #urxvt -name pro -e htop &
 
 
-$HOME/.config/polybar/launch.sh 
+$HOME/.config/polybar/launch.sh &
+
 $HOME/.config/bspwm/external_monitors.sh
 
 
